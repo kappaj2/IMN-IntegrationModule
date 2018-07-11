@@ -9,7 +9,7 @@
     "baseName": "integrationmodule",
     "packageName": "za.co.tman.integration",
     "packageFolder": "za/co/tman/integration",
-    "serverPort": "8083",
+    "serverPort": "8093",
     "authenticationType": "jwt",
     "cacheProvider": "hazelcast",
     "enableHibernateCache": true,

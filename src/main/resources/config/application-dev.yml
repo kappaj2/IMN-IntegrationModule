@@ -94,7 +94,7 @@ spring:
 #        key-alias: integrationmodule
 # ===================================================================
 server:
-    port: 8083
+    port: 8093
 
 # ===================================================================
 # JHipster specific properties
@@ -131,7 +131,7 @@ jhipster:
                 token-validity-in-seconds-for-remember-me: 2592000
     mail: # specific JHipster mail property, for standard properties see MailProperties
         from: integrationmodule@localhost
-        base-url: http://127.0.0.1:8083
+        base-url: http://127.0.0.1:8093
     metrics: # DropWizard Metrics configuration, used by MetricsConfiguration
         jmx:
             enabled: true
